@@ -1,26 +1,43 @@
 <!DOCTYPE html>
-<html>
-<body><style>body{text-align:center}</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h2>SANJIVANI UNIVERSITY</h2>
+    <h3>Student Information Form</h3>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
 
-<h2> SANJIVANI UNIVERSITY</h2>
-<h3>Student information form</h3>
-<form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname"><br>
-  <label for="PRN">PRN NO:</label><br>
-  <input type="text" id="PRN" name="PRN" ><br>
-  <h4>studing in</h4>
-  <input type="radio" id="cyber  security" name="course" value="Cyber security">
-  <label for="cyber security">Cyber security</label><br>
-  <input type="radio" id="aids" name="course" value="AIDS">
-  <label for="aids">AIDS</label><br>
-  <input type="radio" id="aiml" name="course" value="AIML">
-  <label for="aiml">AIML</label><br>
-  <input type="radio" id="cse" name="course" value="CSE">
-  <label for="cse">CSE</label><br><br>
-  <input type="submit" value="Submit">
-</form> 
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="PRN">PRN No:</label><br>
+        <input type="text" id="PRN" name="PRN" required><br><br>
+
+        <h4>Studying in:</h4>
+        <input type="radio" id="cyber_security" name="course" value="Cyber Security">
+        <label for="cyber_security">Cyber Security</label><br>
+        
+        <input type="radio" id="aids" name="course" value="AIDS">
+        <label for="aids">AIDS</label><br>
+        
+        <input type="radio" id="aiml" name="course" value="AIML">
+        <label for="aiml">AIML</label><br>
+        
+        <input type="radio" id="cse" name="course" value="CSE">
+        <label for="cse">CSE</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form> 
 </body>
 </html>
